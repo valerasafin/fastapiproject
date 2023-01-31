@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\__pycache__",
+    "\\client",
+    "\\venv"
+  ],
+  "SelectedNode": "\\docker-compose.yaml",
+  "PreviewInSolutionExplorer": false
+}
