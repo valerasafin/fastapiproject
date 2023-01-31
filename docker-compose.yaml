@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  app:
+    container_name: app
+    command:
+      - uvicorn app.main:app
+    ports:
+      - "8000:8000"
+  client:
+    container_name: client
+    command:
+      - uvicorn client.main:app
+    ports:
+      - "8033:8033"
